@@ -1,3 +1,3 @@
-<<<<<<< HEAD
-#CodeTechPro Robert 
-##name: portfolio_web1.0
+
+# CodeTechPro Robert 
+## name: portfolio_web1.0
