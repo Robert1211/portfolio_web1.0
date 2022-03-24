@@ -1,8 +1,38 @@
+/* font-family: 'Saira', sans-serif;
+font-family: 'Saira Condensed', sans-serif; */
 *{
    margin: 0px;
    padding: 0px;
    box-sizing: border-box;
 }
 header{
-    
+    position: relative;
+    height: 100vh;
+    background-color: #29a6dc;
+}
+
+header > * {
+    position: absolute;
+}
+
+header img {
+    height: 50%;
+    bottom: 0px;
+    right: 0px;
+}
+
+header .welcome{
+   top: 10%;
+   left: 5%;
+   right: 5%;
+
+   
+}
+header p {
+    text-align: center;
+}
+
+
+section {
+    min-height: 100vh;
 }
