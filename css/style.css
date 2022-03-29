@@ -26,12 +26,33 @@ header .welcome{
    left: 5%;
    right: 5%;
 
+
    
 }
-header p {
+header div {
+  
+    font-family: 'Saira Condensed', sans-serif;
+    color: white; 
+    font-size: 40px;
+    font-weight: bold;
     text-align: center;
-}
+    text-transform: uppercase;
+    
 
+}
+header div h1 {
+    
+    font-size: 20px;
+    
+}
+header div h2 {
+    font-size: 20px;
+    /* font-family: 'Saira', sans-serif; */
+    font-weight: 21px;
+   
+    
+    
+}
 
 section {
     min-height: 100vh;
