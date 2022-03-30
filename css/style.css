@@ -38,21 +38,19 @@ header div {
     text-align: center;
     text-transform: uppercase;
     
+}
 
-}
 header div h1 {
-    
     font-size: 20px;
-    
 }
+    
 header div h2 {
     font-size: 20px;
     /* font-family: 'Saira', sans-serif; */
     font-weight: 21px;
-   
-    
     
 }
+    
 
 section {
     min-height: 100vh;
