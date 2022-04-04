@@ -22,7 +22,7 @@ header img {
 }
 
 header .welcome{
-   top: 10%;
+   top: 7%;
    left: 5%;
    right: 5%;
 
@@ -40,18 +40,39 @@ header div {
     
 }
 
-header div h1 {
+header h1  {
+    
+    margin-top: 20px;
     font-size: 20px;
+
+    
+     
 }
     
-header div h2 {
-    font-size: 20px;
-    /* font-family: 'Saira', sans-serif; */
-    font-weight: 21px;
+header h2 {
     
+    font-size: 20px;
+    font-weight: 20px;
+    font-weight: normal;
+    
+}
+
+header button {
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
+    line-height: 32px;
+    padding: 0px 20px;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    font-size: 12px;
+    border: 2px solid white;
+
 }
     
 
 section {
     min-height: 100vh;
 }
+
+
