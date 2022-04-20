@@ -69,7 +69,16 @@ header button {
     border: 2px solid white;
 
 }
-    
+   
+@media (orientation: landscape) {
+    header img {
+        height: 80%;
+        bottom: 0;
+        right: -5%;
+    }
+}
+
+
 
 section {
     min-height: 100vh;
