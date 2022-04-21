@@ -9,6 +9,7 @@ header{
     position: relative;
     height: 100vh;
     background-color: #29a6dc;
+    overflow: hidden;
 }
 
 header > * {
@@ -21,23 +22,18 @@ header img {
     right: 0px;
 }
 
-header .welcome{
+header div.welcome{
    top: 7%;
    left: 5%;
    right: 5%;
 
-
-   
-}
-header div {
-  
-    font-family: 'Saira Condensed', sans-serif;
+   font-family: 'Saira Condensed', sans-serif;
     color: white; 
     font-size: 40px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    
+
 }
 
 header h1  {
@@ -45,14 +41,11 @@ header h1  {
     margin-top: 15px;
     font-size: 20px;
 
-    
-     
 }
     
 header h2 {
     
     font-size: 20px;
-    font-weight: 20px;
     font-weight: normal;
     
 }
@@ -69,12 +62,92 @@ header button {
     border: 2px solid white;
 
 }
+
+@media (orientation: portrait) and (min-width: 360px){
+    header h1 {
+        font-size: 24px;
+    }
+    header h2 {
+        font-size: 24px;
+    }
+    header button {
+        margin-top: 24px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+}
+   
+@media (orientation: portrait) and (min-width: 360px){
+    header h1 {
+        font-size: 24px;
+    }
+    header h2 {
+        font-size: 24px;
+    }
+    header button {
+        margin-top: 24px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+}
+@media (orientation: portrait) and (min-width: 410px){
+    header h1 {
+        font-size: 26px;
+    }
+    header h2 {
+        font-size: 26px;
+    }
+    header button {
+        margin-top: 40px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+    header img {
+        right: -20%;
+    }
+}
    
 @media (orientation: landscape) {
     header img {
         height: 80%;
         bottom: 0;
         right: -5%;
+    }
+    header div.welcome {
+        left: 7%;
+        top: 15%;
+        right: 48%;
+    }
+    header button {
+        margin-top: 40px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 640px){
+    header h1{
+        font-size: 24px;
+    }
+    header h2 {
+        font-size: 24px;
+    }
+    header button {
+        font-size: 16px;
+        line-height: 40px;
+    }
+}
+@media (orientation: landscape) and (min-width: 1024px){
+    header p {
+        
+    }
+    header h1{
+        font-size: 24px;
+    }
+    header h2 {
+        font-size: 24px;
+    }
+    header button {
+        font-size: 16px;
+        line-height: 40px;
     }
 }
 
