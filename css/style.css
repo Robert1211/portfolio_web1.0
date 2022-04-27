@@ -5,6 +5,7 @@ font-family: 'Saira Condensed', sans-serif; */
    padding: 0px;
    box-sizing: border-box;
 }
+/* section header */
 header{
     position: relative;
     height: 100vh;
@@ -156,6 +157,7 @@ header button {
         line-height: 40px;
     }
 }
+
 @media (orientation: landscape) and (min-width: 1024px){
     header div.welcome{
         left: 3%;
@@ -250,7 +252,8 @@ header button {
 }
 
 section {
-    min-height: 100vh;
+    min-height: 30vh;
 }
+/* section about us */
 
 
