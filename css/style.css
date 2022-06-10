@@ -370,6 +370,7 @@ header button {
 }
 .portfolio{
     background-color: black;
+    padding: 10px 0 30px;
 }
 .portfolio h1 {
     font-size: 28px;
@@ -377,8 +378,80 @@ header button {
     text-transform: uppercase;
     color: white;
     text-align: center;
-    padding: 0 20px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
 }
 .portfolio .web img {
     width: 100%;
 }
+.portfolio .about {
+    font-family: 'Saira', sans-serif;
+    color: white;
+    font-weight: normal;
+    padding: 10px 20px 20px 0px;
+    text-align: left;
+}
+.portfolio .about h2 {
+    font-size: 18px;
+    border-bottom: 2px solid white;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    text-indent: 20px;
+}
+.portfolio .about p {
+    font-size: 12px;
+    padding-left: 20px;
+}
+.portfolio .project {
+    margin-bottom: 40px;
+}
+
+.portfolio .project:nth-of-type(odd){
+    background-color: #ff4f2c;
+}
+.portfolio .project:nth-of-type(even){
+    background-color: #29a6dc;
+}
+@media (min-width:768px) and (orientation: portrait){
+    .portfolio h1 {
+        font-size: 40px;
+    }
+    .portfolio .about h2 {
+        font-size: 28px;
+        text-indent: 40px;
+    }
+    .portfolio .about p {
+        font-size: 18px;
+        padding-left: 40px;
+    }
+
+}
+@media (orientation: landscape){
+    .web, .about {
+        width: 50%;
+        float: left;
+    }
+    .web img {
+        display: block;
+    }
+    .portfolio .project:nth-of-type(even)
+    .web {
+        float: right;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1024px){
+    .portfolio h1 {
+        font-size: 60px;
+        
+    }
+    .portfolio .about h2 {
+        font-size: 28px;
+        text-indent: 40px;
+    }
+    .portfolio .about p {
+        font-size: 18px;
+        padding-left: 40px;
+    }
+}
+
