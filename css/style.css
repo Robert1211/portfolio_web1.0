@@ -266,9 +266,7 @@ header button {
     }
 }
 
- footer {
-    min-height: 80vh; 
-}
+ 
 /* section about us */
  .features { 
  max-width: 1600px;
@@ -651,3 +649,119 @@ header button {
         font-size: 40px;
     }
 }
+/* section contact */
+.contact {
+    background-color: #000;
+    padding: 30px 20px;
+
+}
+.contact h1 {
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contact .wrap {
+    padding-top: 20px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.contact input, .contact button, .contact textarea {
+    width: 100%;
+    margin-bottom: 25px;
+    font-family: Saira, sans-serif;
+    font-size: 12px;
+    padding: 5px;
+}
+.contact input{
+    height: 36px;
+    
+}
+.contact textarea {
+    height: 120px;
+}
+.contact button {
+    font-size: 14px;
+    line-height: 40px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+.contact .socials {
+padding-top: 30px;
+font-size: 0px;
+}
+.contact .social {
+    padding: 10px 0;
+    color: white;
+    font-family: Saira condensed, sans-serif;
+
+}
+.contact .social img {
+    float: left;
+}
+.contact .social span {
+    line-height: 72px;
+    padding-left: 20px;
+    float: left;
+    font-size: 20px;
+}
+@media (min-width: 533px){
+    .contact .social {
+        display: inline-block;
+        width: 50%;
+    }
+}
+@media (min-width: 1024px) {
+    .contact h1 {
+        font-size: 60px;
+        padding: 30px 0;
+    }
+
+    .contact form, .contact .socials {
+        float: left;
+        width: 50%;
+        padding: 0px 20px;
+    }
+    .contact .social {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .contact input, .contact button, .contact textarea {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+        
+
+    .contact input {
+        height: 46px;
+        font-size: 24px;
+    }
+    .contact textarea {
+        height: 180px;
+        font-size: 24px;
+    }
+    .contact button {
+        font-size: 20px;
+        line-height: 50px;
+        transition: .3s;
+        cursor: pointer;
+    }
+    .contact button:hover {
+        color: black;
+        background-color: #fff;
+    }
+}
+    footer {
+        background-color: #29a6dc;
+        font-family: Saira, sans-serif;
+        text-align: center;
+        padding: 20px;
+        font-size: 20px;
+    }
